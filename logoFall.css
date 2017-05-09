@@ -1,0 +1,22 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes dropLogo {
+  0% {top: 0%;}
+  100% {top: 100%;}
+}
+@-moz-keyframes dropLogo {
+  0% {top: 0%;}
+  100% {top: 100%;}
+}
+
+#clickLogoHRP2016 {
+  animation-name: dropLogo;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  -moz-animation-name: dropLogo;
+  -moz-animation-duration: 40s;
+  -moz-animation-iteration-count: infinite;
+}
